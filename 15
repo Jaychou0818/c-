@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int y=5;
+    int *yptr;
+    yptr=&y;
+    printf("%d\n",yptr);
+    printf("%d\n",y);
+    return  0;
+
+}
